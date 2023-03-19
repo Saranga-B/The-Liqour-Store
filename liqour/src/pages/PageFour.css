@@ -1,0 +1,81 @@
+.body{
+    background-image: "./new.jpg";
+    background-repeat: no-repeat;
+    background-size: cover;
+    scale: auto;
+}
+
+.bottle{
+  display: flex;
+  flex-direction: row;
+  
+}
+.bottle1-img{
+  position: absolute;
+  width: 74.06px;
+  height: 316px;
+  left: 1390px;
+  top: 250px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.bottle1-rec{
+  position: absolute;
+  width: 285px;
+  height: 285px;
+  left: 1284px;
+  top: 300px;
+
+  background: #1E1E1E;
+  opacity: 95%;
+  border-radius: 30px;
+  z-index: -1;
+}
+
+.bottle2-img{
+  position: absolute;
+  width: 134.99px;
+  height: 316px;
+  left: 865px;
+  top: 250px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.bottle2-rec{
+  position: absolute;
+  width: 285px;
+  height: 285px;
+  left: 784px;
+  top: 300px;
+
+  background: #1E1E1E;
+  opacity: 95%;
+  border-radius: 30px;
+  z-index: -1;
+}
+
+.bottle3-img{
+  position: absolute;
+  width: 172px;
+  height: 316px;
+  left: 345px;
+  top: 250px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.bottle3-rec{
+  position: absolute;
+  width: 285px;
+  height: 285px;
+  left: 284px;
+  top: 300px;
+
+  background: #1E1E1E;
+  opacity: 95%;
+  border-radius: 30px;
+  z-index: -1;
+}
+.cover{
+  z-index: -1;
+  top: -1px;
+}
+.bottle label{
+  color: #FFFFFF;
+}

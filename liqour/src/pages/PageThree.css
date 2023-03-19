@@ -1,0 +1,8 @@
+body{
+    
+    background-image: url('./new.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+
+  scale: auto;
+}

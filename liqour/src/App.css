@@ -1,0 +1,321 @@
+
+.topic h1{
+  display: flex;
+  line-height: normal;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  color:white;
+  padding-top: -10px;
+  padding-bottom: 0px;
+}
+.topic h2{
+  line-height: normal;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  color:white;
+  font-size: 20px;
+
+  padding-top: -10px;
+  padding-bottom: 1px;
+}
+.topic svg{
+  position: absolute;
+  width: 1920px;
+  height: 150px;
+  left: 0px;
+  top: -17px;
+
+  background: rgba(0, 0, 0, 0.67);
+  border-bottom: 1px solid #000000;
+  filter: blur(10px);
+}
+.topic p1{
+  position: absolute;
+  width:600px;
+  height: 50%;
+  left: 0 px;
+  top: 200px;
+  text-align: center;
+
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  
+  color: #FFFFFF;
+}
+.topic1 h1{
+
+  position: absolute;
+width: 400px;
+height: 333px;
+left: -20px;
+top: 357px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 111px;
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.SignIn button{
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transform: translate(-50%, 0%);
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.SignInBox svg{
+  position: absolute;
+width: 1920px;
+height: 495px;
+left: 0px;
+top: 256px;
+
+background: rgba(23, 19, 15, 0.85);
+}
+
+.SignInBox h1{
+  position: absolute;
+  width: 1235px;
+  height: 59px;
+  padding-left: 450px;
+
+  top: 280px;
+  
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 59px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: flex-end;
+  
+  color: #FFFFFF;
+}
+
+.SignInBox h2{
+  position: absolute;
+width: 226px;
+height: 47px;
+left: 300px;
+top: 400px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+
+.text-container {
+  display: flex;
+}
+
+.text1, .text2 {
+  display: inline;
+  margin-right: 10px; /* add margin between the texts */
+}
+
+.text1{
+  position: absolute;
+width: 226px;
+height: 47px;
+left: 280px;
+top: 480px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+
+}
+
+.text2{
+  
+position: absolute;
+width: 336px;
+height: 47px;
+left: 1400px;
+top: 480px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+
+.But button{
+  position: absolute;
+width: 409px;
+height: 75px;
+left: 150px;
+top: 580px;
+
+background: #FFFFFF;
+border-radius: 40px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+color: #000000;
+}
+
+.But2 button{
+  position: absolute;
+width: 409px;
+height: 75px;
+left: 1350px;
+top: 580px;
+
+background: #FFFFFF;
+border-radius: 40px;
+
+
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+color: #000000;
+}
+
+.Page3 svg{
+  position: absolute;
+width: 766px;
+height: 1024px;
+left: 550px;
+top: 0px;
+z-index: -1;
+
+background: rgba(30, 30, 30, 0.64);
+}
+.Page3 h1{
+  position: absolute;
+  width: 1235px;
+  height: 59px;
+  padding-left: 720px;
+  z-index: 1;
+
+  top: 50px;
+  
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 59px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: flex-end;
+  
+  color: #FFFFFF;
+  
+}
+
+.L1{
+  position: absolute;
+width: 115px;
+height: 31px;
+left: 424px;
+top: 210px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+display: flex;
+align-items: flex-end;
+
+color:white;
+}
+
+.Form1{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 200px;
+    z-index: 1;
+}
+.Form1 label{
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: left;
+  display: block;
+  color: white;
+}
+.Form1 input{
+  width: 100%;
+  padding:10px 15px;
+  margin: 20px 0;
+  border: 1px solid white;
+  box-sizing: border-box;
+  display: block;
+}
+.But3 button{
+  position: absolute;
+  width: 300px;
+  height: 65px;
+  left: 790px;
+  top: 526px;
+
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 42px;
+
+  background: #FFFFFF;
+  border-radius: 40px;
+}
