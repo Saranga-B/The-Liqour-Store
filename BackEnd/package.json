@@ -1,0 +1,7 @@
+{
+  "name": "LiqourStore",
+  "version": "1.0.0",
+  "description": "online liqour store system API",
+  "main": "app.js",
+  "license": "MIT"
+}
