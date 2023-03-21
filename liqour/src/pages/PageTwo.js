@@ -1,4 +1,6 @@
 import React from 'react'
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
 
 export default function PageTwo() { 
@@ -6,7 +8,9 @@ export default function PageTwo() {
         alert("you clicked me");
     }
   return (
-    <><><><div className='SignInBox'>
+    <><><>
+        <Navbar/>
+    <div className='SignInBox'>
           <svg width="100%" height="100%">
               <rect x="10" y="10" /></svg>
           <h1>You need to log in or create a new account to explore more </h1>
@@ -21,7 +25,9 @@ export default function PageTwo() {
               <button onClick={onClick}>Create an Account</button>
           </div></><div className='But2'>
           <button onClick={onClick}>Log in</button>
-          </div></>
+          </div>
+          <Footer/>
+          </>
     
           
   )
