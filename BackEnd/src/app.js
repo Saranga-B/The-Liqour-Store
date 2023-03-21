@@ -15,6 +15,5 @@ app.get("/",(req,res,next)=>{
 });
 
 app.listen(PORT, () => {
-    logger.info("This is testing")
-    console.log('Server is up and running on PORT ${PORT}');
+    logger.info("Server is up and running on PORT ${PORT}");
 });
