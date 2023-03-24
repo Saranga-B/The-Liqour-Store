@@ -7,6 +7,7 @@ html{
 }
 body{
     font-size: 1.6rem;
+    bottom: 10s0px;
 }
 li{
     list-style: none;
@@ -29,14 +30,17 @@ li{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 35px;    
-    padding-left: 2px;
+    padding-left: 600px;
+    display: flex;
 }
 
 .nav__menu{
+    padding-right:0px;
+    padding-left: 800px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 3rem;
+    gap: 7rem;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 700;
@@ -62,7 +66,7 @@ li{
         position: fixed;
         top: 7vh;
         right: 0;
-        width: 50;
+        width: 10;
         height: 93vh;
         background: gray;
         flex-direction: column;

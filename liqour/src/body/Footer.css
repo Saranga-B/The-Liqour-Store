@@ -1,11 +1,14 @@
 .section _padding{
     padding: 4rem 4rem;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 .footer{
     background-color:none;
-    padding-top: 50%;
+    padding-top: 180%;
     height: 50px;
     z-index: -2;
+    width: 100%;
 }
 .sb_footer{
     display:flex;
@@ -103,4 +106,8 @@ hr{
         font-size: 27px;
         line-height: 38px;
     }
+}
+.sb_footer section_padding{
+    padding-left: 0%;
+    padding-right: 0%;
 }

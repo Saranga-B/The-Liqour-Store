@@ -1,4 +1,6 @@
-
+body{
+  color: #ffffff;
+}
 .topic h1{
   display: flex;
   line-height: normal;
@@ -162,7 +164,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 47px;
-/* identical to box height */
+
 
 display: flex;
 align-items: flex-end;
@@ -318,4 +320,11 @@ color:white;
 
   background: #FFFFFF;
   border-radius: 40px;
+}
+.body-4{
+  padding-top:100px;
+  padding-left: 150%;;
+}
+.foot{
+  padding-left: 0%;
 }

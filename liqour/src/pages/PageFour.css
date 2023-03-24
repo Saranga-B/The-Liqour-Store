@@ -79,3 +79,10 @@
 .bottle label{
   color: #FFFFFF;
 }
+.body-4{
+  display: flex;
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  justify-content: center;
+  
+}
